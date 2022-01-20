@@ -21,8 +21,7 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".CompletionActivity"></activity>
         <activity android:name=".NewTaskActivity"></activity>
-        <activity android:name=".AboutActivity"
-           ></activity>
+        <activity android:name=".AboutActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

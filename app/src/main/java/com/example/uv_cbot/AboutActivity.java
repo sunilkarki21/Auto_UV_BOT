@@ -35,12 +35,14 @@ public class AboutActivity extends AppCompatActivity {
         // setting back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        // adding content to the about page
-        View aboutPage = new AboutPage(this)
+        // adding content to the about page\
+
+         View aboutPage = new AboutPage(this)
                 .isRTL(false)
                 .setImage(R.drawable.logo)
-                .setDescription(" This is Autonomous UV Disinfection Robot.")
+
                 .addItem(new Element().setTitle("Version 1.0.0"))
+                 .setDescription(" This is Autonomous UV Disinfection Robot.")
                 .addGroup("CONNECT WITH US!")
                 .addEmail("Your mail id ")
                 .addWebsite("www.google.com")
@@ -49,7 +51,7 @@ public class AboutActivity extends AppCompatActivity {
                 .addYoutube("www.youtube.com")
                 .addItem(createCopyright())
                 .create();
-        aboutPage.setBackgroundColor(Color.parseColor("#1e83ad  "));
+
         setContentView(aboutPage);
     }
     private Element createCopyright()
@@ -59,6 +61,7 @@ public class AboutActivity extends AppCompatActivity {
         final String copyrightString = String.format("Copyright @ %d", Calendar.getInstance().get(Calendar.YEAR));
         copyright.setTitle(copyrightString);
         copyright.setGravity(Gravity.CENTER);
+        copyright.setIconDrawable(R.drawable.logo);
         copyright.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
