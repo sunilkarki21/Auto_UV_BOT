@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">UV-C BoT</string>
+    <string name="button_view_task">View Completion Task</string>
+    <string name="button_new_task">Assign New Task</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">This is Setting Activity</string>
+
+    <string name="string_setting_tab">This is setting activity</string>
+    <string name="connect">Press start to connect bluetooth</string>
+    <string name="recent_task">RECENT TASK WILL DISPLAY HERE.</string>
+    <!-- Preference Titles -->
+    <string name="general_header">General</string>
+    <string name="about_header">About</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- about Preferences -->
+
+    <string name="notification_title">Notification</string>
+    <string name="attachment_summary_on">You will receive task completion notification.
+    </string>
+    <string name="attachment_summary_off">Notification is OFF</string>
+
+
+</resources>

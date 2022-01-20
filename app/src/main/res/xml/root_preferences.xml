@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general_header">
+
+        <Preference
+            app:key="Export Database"
+            app:summary="Export records to other formats"
+            app:title="Export" />
+
+        <SwitchPreferenceCompat
+
+            app:key="notification"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/notification_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about_header">
+
+        <Preference
+            app:title="Version"
+            app:summary="1.0.0"
+            />
+        <Preference
+            app:key="contact_preference"
+            app:title="About Us"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
